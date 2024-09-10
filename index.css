@@ -55,6 +55,70 @@ a:hover{
     overflow: hidden;
 }
 
+.category{
+    width: 1064px;
+    height: 428.16px;
+    background-color: white;
+    padding: 60px 0;
+}
+
+.content_tren{
+    width: 1034px;
+    height: 60.800px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.nd{
+    width: 1034px;
+    height: 40.800px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40.800px;
+    margin-bottom: 20px;
+}
+
+.hop_vien{
+    height: 4px;
+    width: 65px;
+    border-radius: 100px;
+    background-color: orangered;
+    position: absolute;
+    left: 47%;
+}
+
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    width: 1034px;
+    height: 317.36px;
+    margin: 0 15px;
+}
+
+.anh{
+    width: 234.500px;
+    height: 317.362px;
+}
+
+.p_anh_mot, .p_anh_hai, .p_anh_ba, .p_anh_bon{
+    width: 194.50px;
+    height: 24px;
+    background-color: rgb(130, 125, 125);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    margin: 0px;
+    bottom: 0px;
+    display: block;
+}
+
+.hop_mot, .hop_hai, .hop_ba, .hop_bon{
+    position:relative;
+}
+
 .footer {
     color: #000000;
     background-color: #151515;
